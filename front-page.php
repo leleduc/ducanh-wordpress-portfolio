@@ -37,7 +37,9 @@ get_header();
 <!-- Portfolio Section  -->
 
 <!-- Testimonial Section  -->
-<?php get_template_part('template-parts/page/home/section', 'testimonial'); ?>
+<?php
+// get_template_part('template-parts/page/home/section', 'testimonial'); 
+?>
 <!-- Testimonial Section  -->
 
 <!-- Blog Section  -->

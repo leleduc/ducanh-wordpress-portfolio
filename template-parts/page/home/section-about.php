@@ -13,7 +13,7 @@ global $theme_uri;
                         <h6 class="text-gray-2">About Me <span>.....</span> </h6>
                         <h2 class="text-dark">Awarded Designer</h2>
                     </div>
-                    <p class="text-gray">I create User Interfaces according to solve specific problems. I specialize in Creative, User-Friendly, and Trending User Interfaces. I have 5+ years of experience Designing Beautiful, Eye-catchy, and modern trending websites. </p>
+                    <p class="text-gray">I create User Interfaces according to solve specific problems. I specialize in Creative, User-Friendly, and Trending User Interfaces. I have practical experience in telecommunications service systems, restaurants, hotel, e-commerce. </p>
                     <p class="text-gray">If you have any task regard for these skills, please don't hesitate to contact me. I'll be happy to participate!</p>
                     <div class="about-btn">
                         <a href="#about" class="main-btn primary">Know More</a>
@@ -32,7 +32,7 @@ global $theme_uri;
                 <div class="about-right">
                     <div class="about-img-wrap">
                         <!-- <img src="" alt=""> -->
-                        <img src="<?= $theme_uri; ?>/img/author-2.jpg" alt="">
+                        <img src="<?= $theme_uri; ?>/img/author-3.png" alt="">
                     </div>
                 </div>
             </div>

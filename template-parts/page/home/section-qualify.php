@@ -20,26 +20,14 @@ global $theme_uri;
 
 
                         <div class="single-qualification-wrap mb-30 wow fadeInLeft" data-wow-delay="ms" style="visibility: visible; animation-name: fadeInLeft;">
-                            <h4>Visual Grammer</h4>
-                            <h5>Art University</h5>
-                            <p>Jan 2008 - Mar 2011</p>
+                            <h4>Bachelor - Electronics and telecommunications engineering</h4>
+                            <h5> <a href="https://en.hust.edu.vn/" style="color: #F95454; font-weight: 400;">Hanoi University of Technology</a> </h5>
+                            <p>Sep 2003 - Sep 2009</p>
                         </div>
 
 
 
-                        <div class="single-qualification-wrap mb-30 wow fadeInLeft" data-wow-delay="ms" style="visibility: visible; animation-name: fadeInLeft;">
-                            <h4>Diploma in Arts</h4>
-                            <h5>Envato Academy</h5>
-                            <p>Jan 2012 - Dec 2015</p>
-                        </div>
 
-
-
-                        <div class="single-qualification-wrap mb-30 wow fadeInLeft" data-wow-delay="ms" style="visibility: visible; animation-name: fadeInLeft;">
-                            <h4>UI Design Intensive</h4>
-                            <h5>Oxford University</h5>
-                            <p>Sep 2016 - May 2018</p>
-                        </div>
 
 
                     </div>
@@ -57,9 +45,9 @@ global $theme_uri;
                                 <img src="" alt="">
                             </div>
                             <div class="qualify-content">
-                                <h4>Graphic Designer</h4>
-                                <h5>Xerox <span>.</span> Full Time</h5>
-                                <p>May 2014 - Jan 2016</p>
+                                <h4>Frontend Developer</h4>
+                                <h5>Freelance<span>.</span> Full Time</h5>
+                                <p>Jun 2021 - Present</p>
                             </div>
                         </div>
 
@@ -67,12 +55,12 @@ global $theme_uri;
                         <div class="single-qualification-wrap mb-30 wow fadeInLeft" data-wow-delay="ms" style="visibility: visible; animation-name: fadeInLeft;">
                             <div class="qualify-icon">
                                 <!-- <img src="" alt=""> -->
-                                <img src="<?= $theme_uri; ?>/img/skill/half-moon.png" alt="">
+                                <img src="<?= $theme_uri; ?>/img/skill/swiss.png" alt="">
                             </div>
                             <div class="qualify-content">
-                                <h4> Visual Designer</h4>
-                                <h5>Envato <span>.</span> Full Time</h5>
-                                <p>Feb 2016 - Dec 2017</p>
+                                <h4> IT Manager</h4>
+                                <h5><a href="https://www.swiss-belhotel.com/" style="color: #F95454; font-weight: 400;">Swiss-belhotel</a> <span>.</span> Full Time</h5>
+                                <p>Mar 2013 - Oct 2013</p>
                             </div>
                         </div>
 
@@ -80,12 +68,12 @@ global $theme_uri;
                         <div class="single-qualification-wrap mb-30 wow fadeInLeft" data-wow-delay="ms" style="visibility: visible; animation-name: fadeInLeft;">
                             <div class="qualify-icon">
                                 <!-- <img src="" alt=""> -->
-                                <img src="<?= $theme_uri; ?>/img/skill/apple.png" alt="">
+                                <img src="<?= $theme_uri; ?>/img/skill/victor.png" alt="">
                             </div>
                             <div class="qualify-content">
-                                <h4> Senior UI Designer</h4>
-                                <h5>Google <span>.</span> Part Time</h5>
-                                <p>Jan 2018 - Aug 2020</p>
+                                <h4> IT Manager</h4>
+                                <h5><a href="https://www.victoriahotels.asia/en/" style="color: #F95454; font-weight: 400;">Victoria Hotels & Resorts</a> <span>.</span> Full Time</h5>
+                                <p>Sep 2010 - Jan 2013</p>
                             </div>
                         </div>
 
@@ -96,9 +84,9 @@ global $theme_uri;
                                 <img src="" alt="">
                             </div>
                             <div class="qualify-content">
-                                <h4> UI UX Designer</h4>
-                                <h5>Apple <span>.</span> Full Time</h5>
-                                <p>Sep 2020 - Present</p>
+                                <h4>Technical consultant</h4>
+                                <h5> <a href="https://vnpt.com.vn/english" style="color: #F95454; font-weight: 400;">VNPT Group</a> <span>.</span> Full Time</h5>
+                                <p>Sep 2009 - Sep 2010</p>
                             </div>
                         </div>
 
@@ -116,16 +104,16 @@ global $theme_uri;
                         <ul class="skill-item">
 
 
-                            <li>Logo Design</li>
+                            <li>Wordpress Theme, Plugin Develope</li>
 
 
-                            <li>UX Copyrighting</li>
+                            <li>ReactJS Develope</li>
 
 
                             <li>Front-end Design</li>
 
 
-                            <li>UX Research</li>
+                            <li>REST API</li>
 
 
                             <li>User Experience Design</li>

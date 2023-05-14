@@ -73,7 +73,7 @@ global $theme_uri;
 		<div class="banner-shape-inner">
 			<img src="<?= $theme_uri; ?>/img/shape/shaps1.png" alt="" class="shape shape1 rotate3d">
 			<img src="<?= $theme_uri; ?>/img/shape/shaps2.png" alt="" class="shape shape2 rotate3d">
-			<img src="<?= $theme_uri; ?>/img/shape/shape/shaps4.png" alt="" class="shape shape4 rotate3d">
+			<img src="<?= $theme_uri; ?>/img/shape/shaps4.png" alt="" class="shape shape4 rotate3d">
 			<img src="<?= $theme_uri; ?>/img/shape/shaps5.png" alt="" class="shape shape5 rotate2d">
 		</div>
 	</div>

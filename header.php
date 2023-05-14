@@ -63,19 +63,31 @@
 									<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
 										<ul id="menu-proview-nav-4" class="navbar-nav m-auto nav-item nav-link active">
-											<li id="menu-item-373" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-373 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#" aria-current="page" class="nav-link">Home</a></li>
-											<li id="menu-item-374" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-374 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#about" aria-current="page" class="nav-link active">About</a></li>
-											<li id="menu-item-375" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-375 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#services" aria-current="page" class="nav-link">Services</a></li>
-											<li id="menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-376 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#project" aria-current="page" class="nav-link">Projects</a></li>
-											<li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-381 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#blog" aria-current="page" class="nav-link">Blog</a></li>
-											<li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-382 nav-item"><a href="https://iideainformatics.it/wp/proview/proview4/#contact" aria-current="page" class="nav-link">Contact</a></li>
+											<li id="menu-item-373" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-373 nav-item">
+												<a href="<?php site_url(); ?>#" aria-current="page" class="nav-link">Home</a>
+											</li>
+											<li id="menu-item-374" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-374 nav-item">
+												<a href="<?php site_url(); ?>#about" aria-current="page" class="nav-link active">About</a>
+											</li>
+											<li id="menu-item-375" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-375 nav-item">
+												<a href="<?php site_url(); ?>#services" aria-current="page" class="nav-link">Services</a>
+											</li>
+											<li id="menu-item-376" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-376 nav-item">
+												<a href="<?php site_url(); ?>#project" aria-current="page" class="nav-link">Projects</a>
+											</li>
+											<li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-381 nav-item">
+												<a href="<?php site_url(); ?>#blog" aria-current="page" class="nav-link">Blog</a>
+											</li>
+											<li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-382 nav-item">
+												<a href="<?php site_url(); ?>#contact" aria-current="page" class="nav-link">Contact</a>
+											</li>
 										</ul>
 									</div>
 								</nav>
 							</div>
 
 							<div class="header-btn">
-								<a href="https://iideainformatics.it/wp/proview/proview4/#contact" class="main-btn primary">Hire Me</a>
+								<a href="<?php site_url(); ?>#contact" class="main-btn primary">Hire Me</a>
 							</div>
 						</div>
 					</div>

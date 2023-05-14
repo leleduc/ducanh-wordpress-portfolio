@@ -1,7 +1,9 @@
 <?php
 
-global $theme_uri;
+global $theme_prefix, $theme_uri;
+$theme_prefix = 'ducanh_portfolio';
 $theme_uri = get_template_directory_uri() . '/assets';
+$theme_dir = get_template_directory();
 
 /**
  * Ducanh Portfolio functions and definitions
@@ -169,20 +171,20 @@ function ducanh_portfolio_scripts()
 	wp_enqueue_script('ducanh-portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
 
 	// wp_enqueue_script('concatemoji',    get_template_directory_uri() . "/js/wp-emoji-release.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script('jquery-core-js', get_template_directory_uri() . "/js/jquery.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script('jquery-migrate-js', get_template_directory_uri() . "/js/jquery-migrate.min.js", array(), _S_VERSION, true);
+	// wp_enqueue_script('jquery-core-js', get_template_directory_uri() . "/js/jquery.min.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script('jquery-migrate-js', get_template_directory_uri() . "/js/jquery-migrate.min.js", ['jquery'], _S_VERSION, true);
 	wp_enqueue_script("contact-form-7-js", get_template_directory_uri() . "/js/index.js", array(), _S_VERSION, true);
-	wp_enqueue_script("bootstrap-js", get_template_directory_uri() . "/js/bootstrap.min.js", array(), _S_VERSION, true);
+	wp_enqueue_script("bootstrap-js", get_template_directory_uri() . "/js/bootstrap.min.js", ['jquery'], _S_VERSION, true);
 	wp_enqueue_script("isotope-js", get_template_directory_uri() . "/js/isotope-3.0.6-min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-fancybox-js", get_template_directory_uri() . "/js/jquery-fancybox.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-barfiller-js", get_template_directory_uri() . "/js/jquery.barfiller.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-counterup-js", get_template_directory_uri() . "/js/jquery.counterup.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-easing-js", get_template_directory_uri() . "/js/jquery.easing.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-nice-select-js", get_template_directory_uri() . "/js/jquery.nice-select.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-sticky-js", get_template_directory_uri() . "/js/jquery.sticky.js", array(), _S_VERSION, true);
-	wp_enqueue_script("jquery-waypoints-js", get_template_directory_uri() . "/js/jquery.waypoints.min.js", array(), _S_VERSION, true);
+	wp_enqueue_script("jquery-fancybox-js", get_template_directory_uri() . "/js/jquery-fancybox.min.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-barfiller-js", get_template_directory_uri() . "/js/jquery.barfiller.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-counterup-js", get_template_directory_uri() . "/js/jquery.counterup.min.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-easing-js", get_template_directory_uri() . "/js/jquery.easing.min.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-nice-select-js", get_template_directory_uri() . "/js/jquery.nice-select.min.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-sticky-js", get_template_directory_uri() . "/js/jquery.sticky.js", ['jquery'], _S_VERSION, true);
+	wp_enqueue_script("jquery-waypoints-js", get_template_directory_uri() . "/js/jquery.waypoints.min.js", ['jquery'], _S_VERSION, true);
 	wp_enqueue_script("magnific-popup-js", get_template_directory_uri() . "/js/magnific-popup.min.js", array(), _S_VERSION, true);
-	wp_enqueue_script("owl-carousel-js", get_template_directory_uri() . "/js/owl.carousel.min.js", array(), _S_VERSION, true);
+	wp_enqueue_script("owl-carousel-js", get_template_directory_uri() . "/js/owl.carousel.min.js", ['jquery'], _S_VERSION, true);
 	wp_enqueue_script("popper-js", get_template_directory_uri() . "/js/popper.min.js", array(), _S_VERSION, true);
 	wp_enqueue_script("wow-js", get_template_directory_uri() . "/js/wow.min.js", array(), _S_VERSION, true);
 	wp_enqueue_script("proview-main-js", get_template_directory_uri() . "/js/main.js", array(), _S_VERSION, true);
