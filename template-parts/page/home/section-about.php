@@ -1,5 +1,8 @@
 <?php
 global $theme_uri;
+$contact_author_img = get_theme_mod('contact_author_img');
+$contact_about_me = get_theme_mod('contact_about_me');
+$contact_video = get_theme_mod('contact_video');
 ?>
 <div id="about" class="about-section about-one section-padding">
     <div class="container">
@@ -13,13 +16,12 @@ global $theme_uri;
                         <h6 class="text-gray-2">About Me <span>.....</span> </h6>
                         <h2 class="text-dark">Awarded Designer</h2>
                     </div>
-                    <p class="text-gray">I create User Interfaces according to solve specific problems. I specialize in Creative, User-Friendly, and Trending User Interfaces. I have practical experience in telecommunications service systems, restaurants, hotel, e-commerce. </p>
-                    <p class="text-gray">If you have any task regard for these skills, please don't hesitate to contact me. I'll be happy to participate!</p>
+                    <?= $contact_about_me; ?>
                     <div class="about-btn">
                         <a href="#about" class="main-btn primary">Know More</a>
                     </div>
                     <div class="pop-up-video">
-                        <a href="#" class="video-play-btn mfp-iframe">
+                        <a href="<?= $contact_video; ?>" class="video-play-btn mfp-iframe">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
                                 <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
                             </svg>
@@ -32,7 +34,7 @@ global $theme_uri;
                 <div class="about-right">
                     <div class="about-img-wrap">
                         <!-- <img src="" alt=""> -->
-                        <img src="<?= $theme_uri; ?>/img/author-3.png" alt="">
+                        <img src="<?= $contact_author_img; ?>" alt="">
                     </div>
                 </div>
             </div>

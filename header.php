@@ -42,7 +42,7 @@
 
 	<!-- header start -->
 	<!-- Header Area -->
-	<div id="header-2" class="header-area absolute-header">
+	<div id="header-<?php the_ID(); ?>" class="header-area absolute-header">
 		<div id="sticky-wrapper" class="sticky-wrapper" style="height: 90px;">
 			<div class="sticky-area" style="">
 				<div class="navigation">

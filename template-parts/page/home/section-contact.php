@@ -1,5 +1,6 @@
 <?php
 global $theme_uri;
+$contact_address = get_theme_mod('contact_address');
 ?>
 <div id="contact" class="contact-section contact-four section-padding">
     <div class="container">
@@ -23,6 +24,7 @@ global $theme_uri;
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
+
                                     <form action="/wp/proview/proview4/#wpcf7-f161-p278-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                         <div style="display: none;">
                                             <input type="hidden" name="_wpcf7" value="161">
@@ -64,7 +66,7 @@ global $theme_uri;
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow fadeInRight  animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInRight;">
                 <div class="map-wrap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1843.1042902778815!2d103.9692614933551!3d22.496356117883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36cd139ba434def9%3A0x365b1011e3c2c58a!2sLAO%20CAI%20STORE!5e0!3m2!1svi!2s!4v1683995804725!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <?= $contact_address; ?>
                 </div>
             </div>
         </div>
